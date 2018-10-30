@@ -1,7 +1,7 @@
 # DS222 Distributed Tensorflow Models ![CI status](https://img.shields.io/badge/build-passing-brightgreen.svg)
 
 ## Assignment Report
-This folder contains all the codes for local and distributed settings.
+**Assignment2** folder contains all the codes for local and distributed settings.
 
 ## Directories
 
@@ -41,4 +41,4 @@ python sync_sgd.py --ps_hosts=10.24.1.210:2000 --worker_hosts=10.24.1.211:2001,1
 * All the data from clustern and local setting has been gathered from tensorbaord logs in .csv format, can be found in **data** folder.
 
 ## Datasets
-* A small sample of datasets used for data can be found in **DBPedia.verysmall** folder.
+* A small sample of datasets used for training and testing can be found in **DBPedia.verysmall** folder.
