@@ -36,8 +36,8 @@ python sync_sgd.py --ps_hosts=10.24.1.210:2000 --worker_hosts=10.24.1.211:2001,1
 
 * All the tensorflow logs and summary files can be specified in their respective notebook can be visualized through tensorboar
 
-##Data
+## Data
 * All the data from clustern and local setting has been gathered from tensorbaord logs in .csv format, can be found in **data** folder.
 
-##Datasets
+## Datasets
 * A small sample of datasets used for data can be found in **DBPedia.verysmall** folder.
