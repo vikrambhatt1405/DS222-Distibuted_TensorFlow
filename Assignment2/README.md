@@ -1,8 +1,8 @@
-#Assignment Report
+# Assignment Report
 
 This folder contains all the codes for local and distributed settings.
 
-##Directories
+## Directories
 
 **obj** contains all the training,test,validation features extracted using doc2vec model and dictionaries in .pkl format which contains map from unique labels to index.
 
@@ -10,11 +10,11 @@ This folder contains all the codes for local and distributed settings.
 
 **synchronous_sgd** contains python scritps which can be run on cluster for synchrnous training by specifying appropriate tensorflow logs locations and ip address and ports of the nodes.An example
 
-'''
+```
 python sync_sgd.py --ps_hosts=10.24.1.210:2000 --worker_hosts=10.24.1.211:2001,10.24.1.212:2002 --job_name=worker --task_index=1
-'''
+```
 
-##Notebooks
+## Notebooks
 
 I have made the following pipeline for data preprocessing and model training.
 For feature extraction and label extraction use FeatureExtraction.ipynb and LabelExtraction.ipynb.
